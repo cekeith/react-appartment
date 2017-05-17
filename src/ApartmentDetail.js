@@ -22,14 +22,16 @@ class ApartmentDetail extends Component {
   render() {
       return (
         <div>
-          <Link to='/'>Home</Link>
           <h2>{this.state.apartment.address}</h2>
           <ul>
             <li>Rent: {this.state.apartment.rent}</li>
             <li>Bedrooms: {this.state.apartment.bedrooms}</li>
             <li>Bathrooms: {this.state.apartment.bathrooms}</li>
             <li>Floors: {this.state.apartment.floors}</li>
+            <li>Paranormal Activity: {this.state.apartment.haunt}</li>
           </ul>
+          <button type="button" className="btn btn-warning" value="Home"><Link to='/'>Home</Link>
+          </button>
         </div>
     );
   }

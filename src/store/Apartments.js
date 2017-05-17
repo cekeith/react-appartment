@@ -8,7 +8,8 @@ const apartments = [
     rent:'$2000/mo.',
     bedrooms: 4,
     bathrooms: 3,
-    floors: 2
+    floors: 2,
+    haunt:'Decently Haunted'
   },
   {
     id:2,
@@ -16,7 +17,8 @@ const apartments = [
     rent:'$1200/mo.',
     bedrooms: 3,
     bathrooms: 2,
-    floors: 100
+    floors: 100,
+    haunt:'Haunted by a friendly ghost'
   },
   {
     id:3,
@@ -24,7 +26,8 @@ const apartments = [
     rent:'$500/mo.',
     bedrooms: .5,
     bathrooms: 10,
-    floors: -3
+    floors: -3,
+    haunt:'Built on top of former occult ritual site'
   },
   {
     id:4,
@@ -32,7 +35,8 @@ const apartments = [
     rent:'Its Free with carpool',
     bedrooms: 'dont worry about it',
     bathrooms: 1,
-    floors: 1
+    floors: 1,
+    haunt:'Extremely Haunted'
   },
   {
     id:5,
@@ -40,7 +44,8 @@ const apartments = [
     rent:'If you have to ask... you cant afford it',
     bedrooms: 8,
     bathrooms: 16,
-    floors: 10
+    floors: 10,
+    haunt:'haunted by sir keatonious III, a particularly nasty ghost'
   },
   {
     id:6,
@@ -48,7 +53,8 @@ const apartments = [
     rent:'$1500/mo.',
     bedrooms: 1,
     bathrooms: 1,
-    floors: 1
+    floors: 1,
+    haunt:'no recent sightings'
   }
 ]
 
